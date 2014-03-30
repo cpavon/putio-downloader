@@ -12,7 +12,7 @@ Once putio-downloader has been set as a upstart service it can be configured to 
 
 When everything will be running fine, all your new content in put.io will appear automatically in your XMBC library.
 
-Insatallation
+Installation
 --------------
 
   - Clone the repo into your raspberry pi
@@ -32,3 +32,11 @@ Configuration
 Config can be found in: /opt/putio-downloader/putio-downloader.ini
 
 The description of every field is available as comments in the own file.
+
+
+TODO:
+-----
+
+  - Check performance of queues and threading on raspberry pi
+  - Add config options to limit download speed
+  - Add config options to set a range of time to download
